@@ -1,0 +1,30 @@
+.main_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 85vh;
+    background-image: linear-gradient(to bottom, rgba(36, 36, 36, 0.5), rgba(52, 132, 244, 0.3)), url("../about/media/taylor-vick-M5tzZtFCOfs-unsplash.jpg");
+}
+
+.cont2{
+    width:100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cont2_01{
+    width: 60vw;
+    height: 70vh;
+    background-color: rgba(240, 248, 255, 0.492);
+}
+
+
+.cont2_02{
+    width: 30vw;
+    height: 70vh;
+    background-color: rgba(240, 248, 255, 0.492);
+}

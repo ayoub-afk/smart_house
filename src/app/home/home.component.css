@@ -1,0 +1,83 @@
+.main_section{
+    width: 100vw;
+    height: 185vh;
+    background-image:  linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(6, 108, 250, 0.3)), url("../home/media/img01.jpg");
+    overflow: hidden;
+}
+.slogan{
+    padding: 60px 0px;
+    width: 100vw;
+    height: 85vh;
+    /*background-color: rgba(0, 255, 255, 0.204);*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.slo1{
+    height: 20vh;
+    width: 80vw;
+    /*background-color: bisque;*/
+    font-family: 'Mouse Memoirs', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.slo1 p{
+    font-size: 70px;
+}
+
+#sol1_def{
+    padding-right: 30vw;
+}
+
+#sol2_def{
+    padding-right: 5vw;
+}
+
+#sol3_def{
+    padding-left:30vw;
+}
+
+.slo{
+    text-decoration:underline;
+    color:crimson;
+}
+
+.sub_slogan{
+    width: 100vw;
+    height: 100vh;
+    /*background-color: rgba(115, 255, 0, 0.204);*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cont1{
+    width:100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-slo-tit{
+    font-size: 40px;
+}
+
+.cont2{
+    width:100vw;
+    height: 80vh;
+    /*background-color:black;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cont2_01{
+    width: 30vw;
+    height: 70vh;
+    background-color: rgba(240, 248, 255, 0.492);
+}

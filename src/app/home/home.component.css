@@ -81,3 +81,30 @@
     height: 70vh;
     background-color: rgba(240, 248, 255, 0.492);
 }
+
+
+@media only screen and (max-width: 1036px) {
+    .slo1 p {
+      font-size: 60px;
+    }
+  }
+  
+  @media only screen and (max-width: 977px) {
+    .slo1 p {
+      font-size: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 813px) {
+    .slo1 p {
+      font-size: 40px;
+    }
+  }
+
+  @media only screen and (max-width: 651px) {
+    .slo1 p {
+      font-size: 30px;
+    }
+  }
+  
+  

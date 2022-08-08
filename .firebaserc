@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "far-cd967": {
+      "hosting": {
+        "VER01": [
+          "far-cd967"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "far-cd967"
+  }
+}

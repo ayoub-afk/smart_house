@@ -1,8 +1,12 @@
 .main_section{
     width: 100vw;
     height: 185vh;
-    background-image:  linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(6, 108, 250, 0.3)), url("../home/media/img01.jpg");
-    overflow: hidden;
+/*     background-image:  linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(6, 108, 250, 0.3)), url("../home/media/bench-accounting-nvzvOPQW0gc-unsplash.jpg");
+ */   /*  background-size: cover;
+    background-repeat: no-repeat;
+
+    background-position: center; */
+    background-color: #001D3D   ;
 }
 .slogan{
     padding: 60px 0px;
@@ -11,28 +15,47 @@
     /*background-color: rgba(0, 255, 255, 0.204);*/
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-
 }
 
-.slo1{
+#su{
+    font-weight: bold;
+    font-size: 55px ;
+    color: white;
+}
+/* .slo1{
     height: 20vh;
     width: 80vw;
-    /*background-color: bisque;*/
+    /*background-color: bisque;
     font-family: 'Mouse Memoirs', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
 
-}
+} */
 .slo1 p{
-    font-size: 70px;
+    font-size: 40px;
+    display: flex;
+    color: white;
+
 }
 
-#sol1_def{
-    padding-right: 30vw;
+ #sol1_def{
+    width: 65vw;
+/*     background-color: red;
+ */    height: 87vh;
+    display: flex;
+   justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;    
+    margin-left: 10vw;
+    
 }
+.slo2{
+    width: 35vw;
+    height: 87vh;
+    background-color: antiquewhite;
+}
+/*
 
 #sol2_def{
     padding-right: 5vw;
@@ -41,7 +64,7 @@
 #sol3_def{
     padding-left:30vw;
 }
-
+ */
 .slo{
     text-decoration:underline;
     color:crimson;

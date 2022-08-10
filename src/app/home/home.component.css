@@ -11,7 +11,7 @@
 .slogan{
     padding: 60px 0px;
     width: 100vw;
-    height: 85vh;
+    height: 87vh;
     /*background-color: rgba(0, 255, 255, 0.204);*/
     display: flex;
     align-items: center;
@@ -22,16 +22,18 @@
     font-size: 55px ;
     color: white;
 }
-/* .slo1{
-    height: 20vh;
+ .slo1{
+    height: 85vh;
     width: 80vw;
-    /*background-color: bisque;
-    font-family: 'Mouse Memoirs', sans-serif;
+    background-color: bisque;
+
+
+   /*  font-family: 'Mouse Memoirs', sans-serif;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 
-} */
+}
 .slo1 p{
     font-size: 40px;
     display: flex;
@@ -43,17 +45,14 @@
     width: 65vw;
 /*     background-color: red;
  */    height: 87vh;
-    display: flex;
-   justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;    
     margin-left: 10vw;
-    
+
 }
 .slo2{
-    width: 35vw;
+    width: 34vw;
     height: 87vh;
     background-color: antiquewhite;
+    overflow: hidden;
 }
 /*
 
@@ -102,19 +101,18 @@
     background-color: rgba(240, 248, 255, 0.492);
 }
 
-
-@media only screen and (max-width: 1036px) {
+/* @media only screen and (max-width: 1036px) {
     .slo1 p {
       font-size: 60px;
     }
   }
-  
+
   @media only screen and (max-width: 977px) {
     .slo1 p {
       font-size: 50px;
     }
   }
-  
+
   @media only screen and (max-width: 813px) {
     .slo1 p {
       font-size: 40px;
@@ -126,5 +124,5 @@
       font-size: 30px;
     }
   }
-  
-  
+ */
+

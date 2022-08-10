@@ -15,6 +15,7 @@ const routes: Routes = [
   {path:'app-sign', component:SignComponent},
   {path:'app-contact', component:ContactComponent}
 
+
 ];
 
 @NgModule({

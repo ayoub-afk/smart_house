@@ -1,9 +1,50 @@
 form{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
-    width: 100vw;
-    height: 85vh;
-    background-color: wheat;
+    width: 59vw;
+    height: 87vh;
+    background-color: #C0CDD9;
+    padding-left: 20vw ;
+}
+.form-label{
+  width: 25vw;
+  font-size: large;
+}
+.form-control{
+  height: 6vh;
+}
+.btn-primary{
+  width: 6vw;
+  background-color: #001D3D;
+}
+.s-form{
+  width: 40vw;
+  height: 87vh;
+  background-color: #C0CDD9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 13vw;
+
+}
+
+.cont{
+
+display: flex;
+justify-content: center;
+}
+#ii{
+  width: 20vw;
+  z-index: 1;
+}
+.mor{
+  width: 350px;
+  height: 350px;
+  background-color: #001D3D;
+  position: absolute;
+  border-radius: 100%;
+  margin-right: 10px;
+  margin-top: 10px;
 }
